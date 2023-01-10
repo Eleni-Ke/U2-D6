@@ -1,0 +1,13 @@
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card {
+    text-align: center;
+}
+
+.card-title span {
+    font-weight: 200;
+}
