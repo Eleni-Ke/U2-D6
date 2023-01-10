@@ -26,9 +26,12 @@
         </ul>
     </header>
     <main>
-        <section class="container-fluid" id="aboutMe">
+        <section class="container-fluid container" id="aboutMe">
             <h2>About me:</h2>
-            <p>Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. </p>
+            <div class="aboutMeContainer row">
+                <div class="col-4"><img src="/img/CCB375BC-BA4F-41D6-A99D-338C395E4DD1_1_105_c.jpeg" alt=""></div>
+                <p class="col-8">Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. </p>
+            </div>
         </section>
         <section class="container-fluid" id="favoriteAlbum">
             <h2>My favorite albums: </h2>
@@ -109,11 +112,55 @@
         </section>
         <section class="container-fluid" id="albumReview">
             <h2>Album review:</h2>
-            
+            <div class="card album-review-card">
+                <img src="/img/download.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Album title <span>duration</span></h5>
+                    <p class="card-text">Artist Name <br>Genre</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link">Listen to the album here</a>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Length</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
         <section class="container-fluid" id="worstAlbum">
             <h2>Worst album EVER:</h2>
-            
+            <div class="card" style="width: 18rem;">
+                <img src="/img/download.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Album title <span>duration</span></h5>
+                  <p class="card-text">Artist Name <br>Genre</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="card-link">Listen to the album here</a>
+                  </div>
+            </div>
         </section>
     </main>
     

@@ -1,7 +1,21 @@
+
+
+.aboutMeContainer img {
+    width: 100%;
+}
+
+.container-fluid {
+    margin-left: 0;
+    margin-right: 0
+}
+
+
 .card-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
+
+
 
 
 .card {
@@ -10,4 +24,9 @@
 
 .card-title span {
     font-weight: 200;
+}
+
+.album-review-card {
+    margin-inline: auto;
+    width: 75%;
 }
