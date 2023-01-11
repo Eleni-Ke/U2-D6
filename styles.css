@@ -1,3 +1,55 @@
+html {
+    background-color: rgb(174, 205, 202);
+}
+
+body {
+    background-color: rgb(174, 205, 202);
+}
+
+main {
+
+    margin: 10px 50px;
+}
+
+header {
+    /* background-color: rgb(129, 204, 196); */
+    background-image: linear-gradient(to left, rgb(177, 213, 210), rgb(92, 173, 165));
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logoTop{
+    height: 100%;
+    position: absolute;
+}
+
+
+
+.nav-item {
+    font-size: 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.nav-link {
+    color: rgb(92, 173, 165);
+    background-color: rgb(255, 247, 200);
+    border: 0.5px solid gold;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    background-color: gold;
+}
+
 
 
 .aboutMeContainer img {
@@ -6,7 +58,8 @@
 
 .container-fluid {
     margin-left: 0;
-    margin-right: 0
+    margin-right: 0;
+    margin-bottom: 30px;
 }
 
 
@@ -20,6 +73,9 @@
 
 .card {
     text-align: center;
+    border-radius: 15px;
+    border: 1px solid gold;
+    overflow: hidden;
 }
 
 .card-title span {
@@ -28,5 +84,24 @@
 
 .album-review-card {
     margin-inline: auto;
-    width: 75%;
+    width: 55%;
+}
+
+.album-review-container {
+    display: flex;
+}
+
+#albumReview .card {
+    font-size: 1.5em;
+    padding: 0;
+}
+
+#covers .card {
+    border-radius: 0;
+    border: none;
+}
+
+
+#covers .col {
+    padding: 0;
 }
