@@ -39,11 +39,11 @@
             </div>
         </div>
         <div class="content"> 
-            <section class="container-fluid container" id="aboutMe">
+            <section class="container-fluid" id="aboutMe">
                 <h2>About me:</h2>
-                <div class="aboutMeContainer row">
-                    <div class="col-3"><img src="/img/CCB375BC-BA4F-41D6-A99D-338C395E4DD1_1_105_c.jpeg" alt=""></div>
-                    <p class="col-8">Blablabla it is I. I am me blablablablabla. Blablabla it is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. Blablabla this is I. I am me blablablablabla. </p>
+                <div class="aboutMeContainer row row-cols-1 row-cols-sm-2 text-center">
+                    <div class="col aboutMeImg"><img src="/img/CCB375BC-BA4F-41D6-A99D-338C395E4DD1_1_105_c.jpeg" alt=""></div>
+                    <p class="col mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptates natus tempora fuga sequi ratione perferendis mollitia blanditiis dolorum. Eaque aperiam consectetur excepturi incidunt corporis esse error nostrum, placeat ipsa. </p>
                 </div>
             </section>
             <section class="container-fluid" id="favoriteAlbum">
@@ -126,7 +126,7 @@
                                     <th scope="col">Name</th>
                                     <th scope="col">Artist</th>
                                     <th scope="col">Length</th>
-                                    <th scope="col" onclick="removeSong()">Remove Song</th>
+                                    <th scope="col">Remove Song</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -135,95 +135,114 @@
                                     <td>Press Rewind</td>
                                     <td>SOJA</td>
                                     <td>4:34</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
                                     <td>It's Funny</td>
                                     <td>SOJA</td>
                                     <td>4:26</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
                                     <td>The Day You Came</td>
                                     <td>SOJA</td>
                                     <td>4:03</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">4</th>
                                     <td>Break It Down</td>
                                     <td>SOJA</td>
                                     <td>4:00</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">5</th>
                                     <td>Something To Believe In</td>
                                     <td>SOJA</td>
                                     <td>3:29</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">6</th>
                                     <td>Things You Can't Control</td>
                                     <td>SOJA</td>
                                     <td>4:04</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">7</th>
                                     <td>Back To The Start</td>
                                     <td>SOJA</td>
                                     <td>4:44</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">8</th>
                                     <td>Jump</td>
                                     <td>SOJA</td>
                                     <td>5:04</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">9</th>
                                     <td>Still You</td>
                                     <td>SOJA</td>
                                     <td>3:24</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">10</th>
                                     <td>Messages</td>
                                     <td>SOJA</td>
                                     <td>4:18</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">11</th>
                                     <td>Reason To Live</td>
                                     <td>SOJA</td>
                                     <td>4:20</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">12</th>
                                     <td>This Heart Of Mine</td>
                                     <td>SOJA</td>
                                     <td>4:49</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">13</th>
                                     <td>Fall Like Rain</td>
                                     <td>SOJA</td>
                                     <td>5:02</td>
-                                    <td><button type="button" class="btn btn-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
+                                    <td><button type="button" class="btn btn-outline-danger" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);">Remove</button></td>
                                 </tr>
                             </tbody>
                         </table>
-                        
+                        <div class="addTrackerContainer text-center"><button type="button" class="btn btn-info" id="addTrack" data-toggle="modal" data-target="#exampleModal">Add Track</button></div>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  ...
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </section>
@@ -408,11 +427,7 @@
             </div>
         </div>
     </footer>
-    <script>
-        const removeSong = () => {
-
-        }
-    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>

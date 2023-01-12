@@ -11,14 +11,14 @@ body {
     margin-inline: 50px;
 }
 
+/* header */
 header {
-    background-image: linear-gradient(to left, rgb(177, 213, 210), rgb(92, 173, 165));
+    background-image: linear-gradient(to left, rgb(177, 213, 210, 0.9), rgba(92, 173, 165, 0.9));
     height: 80px;
     position: sticky;
     top: 0;
     margin-bottom: 0;
     z-index: 1;
-    opacity: 0.9;
 }
 
 .logoTop{
@@ -26,18 +26,12 @@ header {
     position: absolute;
 }
 
-
-
 .nav-item {
     font-size: 20px;
     height: 80px;
     display: flex;
     align-items: center;
 }
-
-
-
-
 
 .nav-link {
     color: rgb(92, 173, 165);
@@ -52,8 +46,11 @@ header {
 }
 
 
+/* jumbotron */
 .jumbotron {
     text-align: center;
+    background-image: url(/img/bg-jumbotron.webp);
+    background-position: center;
     animation: fadeIn 1.5s;
 
 }
@@ -63,24 +60,19 @@ header {
     to {opacity: 1;}
 }
 
-.aboutMeContainer img {
-    width: 100%;
-}
 
+
+/* main */
 .container-fluid {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 30px;
 }
 
-
 .card-container {
     display: flex;
     justify-content: center;
 }
-
-
-
 
 .card {
     text-align: center;
@@ -94,12 +86,29 @@ header {
     padding: 5px;
 }
 
+
+/* about me */
+.aboutMeImg {
+    overflow: hidden;
+}
+
+.aboutMeContainer img {
+    object-position: top;
+    border: 1px solid gold;
+    object-fit: cover;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+}
+
+/* favorite album */
 #favoriteAlbum .card {
     height: 23rem;
 }
 
 #favoriteAlbum .card-img-top {
     height: 13rem;
+    object-fit: cover;
 }
 
 
@@ -108,6 +117,8 @@ header {
     font-weight: 200;
     font-size: 15px;
 }
+
+/* section album review */
 
 .album-review-card {
     margin-inline: auto;
@@ -122,6 +133,28 @@ header {
     font-size: 1.5em;
     padding: 0;
 }
+
+#addTrack {
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+#addTrack:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+#worstAlbum {
+    padding-left: 0;
+}
+
+
+/* section covers */
 
 #covers .card {
     border-radius: 0;
