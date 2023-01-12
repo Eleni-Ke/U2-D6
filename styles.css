@@ -6,17 +6,17 @@ body {
     background-color: rgb(174, 205, 202);
 }
 
-main {
+.content {
 
-    margin: 10px 50px;
+    margin-inline: 50px;
 }
 
 header {
-    /* background-color: rgb(129, 204, 196); */
     background-image: linear-gradient(to left, rgb(177, 213, 210), rgb(92, 173, 165));
     height: 80px;
     position: sticky;
     top: 0;
+    margin-bottom: 0;
     z-index: 1;
     opacity: 0.9;
 }
@@ -52,6 +52,16 @@ header {
 }
 
 
+.jumbotron {
+    text-align: center;
+    animation: fadeIn 1.5s;
+
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 .aboutMeContainer img {
     width: 100%;
@@ -79,9 +89,17 @@ header {
     overflow: hidden;
 }
 
-#favoriteAlbum .card {
+.card-body {
+    margin-top: 1rem;
+    padding: 5px;
+}
 
-    height: 30rem;
+#favoriteAlbum .card {
+    height: 23rem;
+}
+
+#favoriteAlbum .card-img-top {
+    height: 13rem;
 }
 
 
