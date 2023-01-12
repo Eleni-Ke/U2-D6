@@ -108,9 +108,32 @@ header {
 #covers .card {
     border-radius: 0;
     border: none;
+    height: 100%;
 }
 
 
 #covers .col {
     padding: 0;
+}
+
+#covers .card-img-top {
+    height: 100%;
+}
+
+footer {
+    background-image: linear-gradient(to left, rgb(177, 213, 210), rgb(92, 173, 165));
+    height: 80px;
+    font-size: 30px;
+}
+
+footer .row {
+    height: 100%;
+    width: 220px;
+}
+
+
+
+.fa-brands {
+    margin-left: 3px;
+    color: rgb(36, 64, 61);
 }
