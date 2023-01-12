@@ -120,6 +120,11 @@ header {
 
 /* section album review */
 
+#albumReview th, #albumReview td {
+    border-color: gold;
+    color: rgb(56, 101, 97);
+}
+
 .album-review-card {
     margin-inline: auto;
     width: 55%;
